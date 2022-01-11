@@ -18,7 +18,4 @@ import java.util.List;
 @Mapper
 public interface EduTeacherMapper extends BaseMapper<EduTeacher> {
 
-    @Select("select * from edu_teacher")
-    List<EduTeacher> list1();
-
 }
